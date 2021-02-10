@@ -1,0 +1,22 @@
+@mixin box ($w, $h, $pd) {
+      width: $w;
+      height: $h;
+      padding: $pd;
+}
+
+@mixin step ($w, $h, $bg) {
+      width: $w;
+      height: $h;
+      background: $bg;
+}
+
+@mixin image ($w, $h) {
+      width: $w;
+      height: $h;
+}
+
+@mixin font ($ff, $fs, $c) {
+      font-family: $ff;
+      font-size: $fs;
+      color: $c;
+}
